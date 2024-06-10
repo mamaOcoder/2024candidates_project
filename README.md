@@ -1,1 +1,9 @@
-# 2024candidates_project
+# 2024 Senate and House of Representatives Candidates' Wikipedia Hyperlink Graphs Analysis
+
+## Summary
+This study investigates the network characteristics and community structures of the 2024 U.S. Senate and House candidates based on their Wikipedia pages, utilizing graph theory and network analysis techniques. By constructing and analyzing directed hyperlink graphs, we examined the connectivity and assortativity among candidates, focusing on attributes such as incumbency, party affiliation, state, and candidacy status. Our findings reveal distinct patterns of connectivity and reciprocity within the Senate and House candidate networks. In particular, we identify the presence of tightly-knit communities and significant variations in candidate connectivity across different states and political affiliations. Through visualizations including Sankey diagrams and adjacency matrix heatmaps, we provide a comprehensive overview of the underlying structures and attribute distributions within these political candidate networks. This analysis contributes to a deeper understanding of the digital presence and interconnectivity of political figures, offering insights into the dynamics of online political representation.
+
+## Files
+- [collect_candidates.ipynb](https://github.com/mamaOcoder/2024candidates_project/blob/main/collect_candidates.ipynb) contains the code for scraping and cleaning the data from Ballotpedia and Wikipedia. The 4 pickle files are the most updated results from running this code.
+- [Final Project Notebook.ipynb](https://github.com/mamaOcoder/2024candidates_project/blob/main/Final%20Project%20Notebook.ipynb) contains the code for generating the graphs and performing network analyses.
+- [output_graphs](https://github.com/mamaOcoder/2024candidates_project/tree/main/output_graphs) contains the output graphs and tables from the notebook.
