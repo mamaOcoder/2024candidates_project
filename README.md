@@ -7,5 +7,5 @@ This study investigates the network characteristics and community structures of 
 - [collect_candidates.ipynb](https://github.com/mamaOcoder/2024candidates_project/blob/main/collect_candidates.ipynb) contains the code for scraping and cleaning the data from Ballotpedia and Wikipedia. The 4 pickle files are the most updated results from running this code.
 - [Final Project Notebook.ipynb](https://github.com/mamaOcoder/2024candidates_project/blob/main/Final%20Project%20Notebook.ipynb) contains the code for generating the graphs and performing network analyses.
 - [output_graphs](https://github.com/mamaOcoder/2024candidates_project/tree/main/output_graphs) contains the output graphs and tables from the notebook.
-- [utils/scrap_functions.py]() contains the functions created for collect_candidates.ipynb.
-- [utils/graphs_functions.py]() contains the functions created for Final Project Notebook.ipynb.
+- [utils/scrape_functions.py](https://github.com/mamaOcoder/2024candidates_project/blob/main/utils/scrape_functions.py) contains the functions created for collect_candidates.ipynb.
+- [utils/graphs_functions.py](https://github.com/mamaOcoder/2024candidates_project/blob/main/utils/graphs_functions.py) contains the functions created for Final Project Notebook.ipynb.
