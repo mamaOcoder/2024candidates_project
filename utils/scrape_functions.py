@@ -106,29 +106,6 @@ def find_state_name(s):
         return match.group(0)
     else:
         return None
-    
-state_codes = {
-    'Alabama': 'AL', 'Alaska': 'AK', 'Arizona': 'AZ', 'Arkansas': 'AR', 'California': 'CA',
-    'Colorado': 'CO', 'Connecticut': 'CT', 'Delaware': 'DE', 'Florida': 'FL', 'Georgia': 'GA',
-    'Hawaii': 'HI', 'Idaho': 'ID', 'Illinois': 'IL', 'Indiana': 'IN', 'Iowa': 'IA', 'Kansas': 'KS',
-    'Kentucky': 'KY', 'Louisiana': 'LA', 'Maine': 'ME', 'Maryland': 'MD', 'Massachusetts': 'MA',
-    'Michigan': 'MI', 'Minnesota': 'MN', 'Mississippi': 'MS', 'Missouri': 'MO', 'Montana': 'MT',
-    'Nebraska': 'NE', 'Nevada': 'NV', 'New Hampshire': 'NH', 'New Jersey': 'NJ', 'New Mexico': 'NM',
-    'New York': 'NY', 'North Carolina': 'NC', 'North Dakota': 'ND', 'Ohio': 'OH', 'Oklahoma': 'OK',
-    'Oregon': 'OR', 'Pennsylvania': 'PA', 'Rhode Island': 'RI', 'South Carolina': 'SC', 'South Dakota': 'SD',
-    'Tennessee': 'TN', 'Texas': 'TX', 'Utah': 'UT', 'Vermont': 'VT', 'Virginia': 'VA', 'Washington': 'WA',
-    'West Virginia': 'WV', 'Wisconsin': 'WI', 'Wyoming': 'WY','District of Columbia':'DC','Guam':'GU',
-    'Samoa':'AS','Mariana Islands':'MP','Virgin Islands':'VI'
-}
-
-# Dictionary associating to each state the table order in ballotpedia
-state2order_d={}
-x=["AZ","CA","CT","DE","FL","HI","IN","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NJ","NM","NY","ND","OH","PA","RI","TN","TX","UT","VT","VA","WA","WV","WI","WY",]
-y=list(range(6,39))
-# print(len(x),len(y))
-for z in list(zip(x,y)):
-    state2order_d[z[0]]=z[1]
-# state2order_d
 
 # Status values that means the candidate will not be on the ballot
 not_running = ['Withdrew Primary', 'Withdrew General', 'Lost Primary', 'Lost (Write-in) Primary','Withdrew (Write-in) Primary',
@@ -198,3 +175,33 @@ def graph_attributes(G,nodedatalist,edgedatalist):
         for (d,s) in edgedatalist:
             for e in G.edges():
                 G.edges[e][s] = d[e]
+
+def html_to_text_with_hyperlinks(html_file_path):
+    # Read the HTML file with a different encoding
+    with open(html_file_path, 'r', encoding='ISO-8859-1') as file:
+        html_content = file.read()
+
+    # Parse HTML using BeautifulSoup
+    soup = BeautifulSoup(html_content, 'html.parser')
+
+    # Extract text content
+    text_content = soup.get_text(separator='\n', strip=True)
+
+    # Extract hyperlinks and their corresponding text
+    hyperlinks = [(link.text.strip(), link.get('href')) for link in soup.find_all('a')]
+
+    # Concatenate text content with hyperlinks
+    for link_text, link_url in hyperlinks:
+        text_content += f'\n{link_text}: {link_url}'
+
+    return text_content
+
+
+def extract_urls(text):
+    # Define the regex pattern to match URLs
+    url_pattern = r'https?://\S+'
+
+    # Find all matches of the pattern in the text
+    urls = re.findall(url_pattern, text)
+
+    return urls
