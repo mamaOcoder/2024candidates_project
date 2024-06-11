@@ -12,7 +12,7 @@ This study investigates the network characteristics and community structures of 
 - Final Project Notebook.ipynb contains the code for generating the graphs and performing network analyses.
 - utils/scrape_functions.py contains the functions created for collect_candidates.ipynb.
 - utils/graphs_functions.py contains the functions created for Final Project Notebook.ipynb.
-- [Class project report]()
+- [Class project report PDF](https://github.com/mamaOcoder/2024candidates_project/blob/main/MSDS452_Final_Project.pdf)
 
 ## Interactive Visualizations
 You can view our interactive visualizations here:
