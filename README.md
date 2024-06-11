@@ -12,6 +12,7 @@ This study investigates the network characteristics and community structures of 
 - Final Project Notebook.ipynb contains the code for generating the graphs and performing network analyses.
 - utils/scrape_functions.py contains the functions created for collect_candidates.ipynb.
 - utils/graphs_functions.py contains the functions created for Final Project Notebook.ipynb.
+- [Class project report]()
 
 ## Interactive Visualizations
 You can view our interactive visualizations here:
