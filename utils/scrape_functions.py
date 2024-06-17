@@ -16,10 +16,9 @@ def scrape_ballotpedia_tables(url):
 
     Args:
     - url (str): The URL of the Ballotpedia page containing the table.
-    - table_order (int): The order of the table on the page (0-indexed).
 
     Returns:
-    - pd.DataFrame: The scraped table as a DataFrame.
+    - list: The scraped html tables as a list.
     """
     # Send an HTTP request to the URL and get the page content
     response = requests.get(url)
@@ -35,6 +34,16 @@ def scrape_ballotpedia_tables(url):
     return tables
 
 def get_ballotpedia_table(tables, table_order):
+    """
+    Scrape a table from a Ballotpedia page and return it as a DataFrame.
+
+    Args:
+    - tables (list): List of Ballotpedia page html tables.
+    - table_order (int): Index of the table that we want 
+
+    Returns:
+    - pd.DataFrame: The scraped table as a DataFrame.
+    """
     # Check if the specified table order exists
     if table_order >= len(tables):
         raise IndexError("Specified table order does not exist on the page")
@@ -55,6 +64,22 @@ def check_wikipedia_page(name):
         return name
     else:
         return None #"wiki page not found"
+
+def scrape_wikipedia_tables(url):
+    # Send a GET request to the URL
+    response = requests.get(url)
+    
+    # Parse the HTML content of the page
+    soup = BeautifulSoup(response.content, 'html.parser')
+    
+    # Find all tables on the page
+    tables = soup.find_all('table')
+    
+    return tables
+
+# Function looks for wiki in href tag
+def href_wiki(href):
+    return href and re.compile("^/wiki/").search(href)
     
 def scrape_wikipedia_table(url, table_order):
     # Send a GET request to the URL
@@ -107,11 +132,6 @@ def find_state_name(s):
     else:
         return None
 
-# Status values that means the candidate will not be on the ballot
-not_running = ['Withdrew Primary', 'Withdrew General', 'Lost Primary', 'Lost (Write-in) Primary','Withdrew (Write-in) Primary',
-               'Disqualified Primary', 'Withdrew Round 1','Disqualified General','Lost Primary Runoff','Lost (unofficially withdrew) Primary',
-               'Lost (Write-in) Primary','Withdrew Round 1','Withdrew (Write-in) General','Withdrew (unofficially withdrew) Primary',
-               'Lost Convention']
 
 def node_sizes_scaling(G,a=0,b=1,mode='lin'): # c=10,
     if mode=='lin':
