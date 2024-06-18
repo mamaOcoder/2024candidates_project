@@ -14,7 +14,7 @@ In an undirected graph, edges have no direction, meaning the connection between 
 In directed graphs, edges have directions, indicating the relationship flows from one node to another. This gives rise to more nuanced concepts of connectivity: weak connectivity and strong connectivity.
 
 * **Weakly Connected Component**: A weakly connected component is a subgraph where if the direction of edges is ignored, the subgraph is connected. This means that replacing all directed edges with undirected edges results in a connected component.
-* **Giant Weakly Connected Component: This is the largest weakly connected subgraph in the directed graph.
+* **Giant Weakly Connected Component**: This is the largest weakly connected subgraph in the directed graph.
 * **Strongly Connected Component**: A strongly connected component is a subgraph where for every pair of nodes ($u, v$) in the graph, there is a directed path from $u$ to $v$ and also another directed path from $v$ to $u$.
 * **Giant Strongly Connected Component**: This is the largest strongly connected subgraph in the directed graph.
 
