@@ -2,7 +2,7 @@
 
 The creation of hyperlink graphs is a crucial step in visualizing the relationships and connections among the candidates for the 2024 U.S. Senate and House of Representatives elections. By mapping out the hyperlinks between the Wikipedia pages of the candidates, we can analyze the interconnectedness and network structure of the political landscape.
 
-<font size="10">**2.1. Obtaining Edge Values**</font>
+<span style="font-size: 40px;">**2.1. Obtaining Edge Values**</span>
 
 To begin, the validated Wikipedia pages for each candidate were used as the basis for constructing each hyperlink graph. Each Wikipedia page in both dataframes was inspected to extract hyperlinks pointing to other Wikipedia pages. These hyperlinks represent connections between different candidates. To obtain these hyperlinks, a for-loop utilizing the “wikipediaapi.Wikipedia” Python library was used to systematically traverse each candidate’s Wikipedia page and compile a list of hyperlinks. Within the loop, we retrieved, sorted, and filtered out self-referencing links shown on each candidate's page. We stored the edge pairs in the hyperlink list when we found intersecting links with the validated Wikipedia pages.This approach allowed us to identify and capture all outgoing hyperlinks between candidates’ Wikipedia pages to be used as the edges in our network graph.
 
