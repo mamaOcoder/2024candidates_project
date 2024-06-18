@@ -1,4 +1,4 @@
-## Data Collection
+## 1. Data Collection
 
 Candidates for the U.S. Senate and U.S. House of Representatives 2024 elections were scraped from their respective Ballotpedia pages. [Ballotpedia](https://ballotpedia.org/Main_Page) is a nonprofit and nonpartisan online political encyclopedia that covers elections and public policy in the United States. The desired candidates lists were located within tables organized by state and contained information such as candidate name, party affiliation, office and candidacy status. Python’s “requests'' and “BeautifulSoup'' libraries were utilized to scrape the Ballotpedia webpages and extract the tables from the raw HTML content.
 
