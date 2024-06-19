@@ -18,7 +18,7 @@ The two hyperlink graphs were constructed using the library in Python [NetworkX]
 The constructed graphs were visualized using Python library [Holoviews](https://www.holoviews.org/). Figures 1 and 2 display the hyperlink graphs of the Senate and House candidates’ Wikipedia pages, respectively. Different visual attributes were used to enhance the clarity and interpretability of the graphs. Nodes were sized by their degree.
 
 <p align="center">
-  <img src="plots/SenateGraph.png" alt="Senate candidates graph">
+  <img src="plots/SenateGraph.png" alt="Senate candidates hyperlink graph">
   <br>
-  <i>Figure 1: Senate candidates graph.</i>
+  <b>Figure 1</b>b>: Senate candidates hyperlink graph (<a href="plots/SenateGraph.html">interactive graph</a>).
 </p>
