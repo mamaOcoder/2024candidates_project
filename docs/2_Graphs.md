@@ -49,6 +49,16 @@ Compare the graph statistics of the Senate graph, which includes the eight Presi
 
 Compare the graph statistics of the reciprocated Senate graph, which includes the eight Presidents, with those of the reciprocated Senate graph excluding the Presidents:
 
+| Reciprocated Senate graph statistic   | With Presidents           |   Without presidents |
+|:--------------------------------------|:--------------------------|---------------------:|
+| Order                                 | 35                        |               43     |
+| Size                                  | 44                        |              278     |
+| Density                               | 0.074                     |                0.308 |
+| Average degree                        | 1.257                     |                6.465 |
+| Transitivity                          | 0.565                     |                0.937 |
+| Diameter                              | Undefined (not connected) |                7     |
+| Number of connected components        | 8                         |                1     |
+| Average clustering coefficient        | 0.159                     |                0.748 |
 
 ### 2.3.3 The graph of House candidates
 
