@@ -25,7 +25,7 @@ The constructed graphs were visualized using Python library [Holoviews](https://
   <b>Figure 1</b>: Senate candidates hyperlink graph (<a href="https://mamaocoder.github.io/2024candidates_project/plots/SenateGraph1.html">interactive graph</a>).
 </p>
 
-Compare the graph statistics of the current Senate graph, which includes the eight Presidents, with those of the Senate graph excluding the Presidents:
+Compare the graph statistics of the Senate graph, which includes the eight Presidents, with those of the Senate graph excluding the Presidents:
 
 | Graph statistic                         | With Presidents                    | Without presidents                 |
 |:----------------------------------------|:-----------------------------------|:-----------------------------------|
@@ -41,11 +41,32 @@ Compare the graph statistics of the current Senate graph, which includes the eig
 
 #### The graph of reciprocated Senate candidates
 
+<p align="center">
+  <img src="plots/RecSenateGraph1.png" alt="Reciprocated Senate candidates hyperlink graph">
+  <br>
+  <b>Figure 2</b>: Senate candidates hyperlink graph (<a href="https://mamaocoder.github.io/2024candidates_project/plots/RecSenateGraph1.html">interactive graph</a>).
+</p>
+
+Compare the graph statistics of the reciprocated Senate graph, which includes the eight Presidents, with those of the reciprocated Senate graph excluding the Presidents:
 
 
 #### The graph of House candidates
 
+<p align="center">
+  <img src="plots/SenateGraph1.png" alt="House candidates hyperlink graph">
+  <br>
+  <b>Figure 3</b>: House candidates hyperlink graph (<a href="https://mamaocoder.github.io/2024candidates_project/plots/HouseGraph1.html">interactive graph</a>).
+</p>
 
+Compare the graph statistics of the House graph, which includes the eight Presidents, with those of the House graph excluding the Presidents:
 
 
 #### The graph of reciprocated House candidates
+
+<p align="center">
+  <img src="plots/SenateGraph1.png" alt="Reciprocated House candidates hyperlink graph">
+  <br>
+  <b>Figure 4</b>: Senate candidates hyperlink graph (<a href="https://mamaocoder.github.io/2024candidates_project/plots/RecHouseGraph1.html">interactive graph</a>).
+</p>
+
+Compare the graph statistics of the reciprocated House graph, which includes the eight Presidents, with those of the reciprocated House graph excluding the Presidents:
