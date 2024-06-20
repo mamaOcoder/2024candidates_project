@@ -27,17 +27,16 @@ The constructed graphs were visualized using Python library [Holoviews](https://
 
 Compare the graph statistics of the Senate graph, which includes the eight Presidents, with those of the Senate graph excluding the Presidents:
 
-| Senate graph statistic                         | With Presidents                    | Without presidents                 |
-|:----------------------------------------|:-----------------------------------|:-----------------------------------|
-| Order                                   | 68                                 | 58                                 |
-| Size                                    | 246                                | 581                                |
-| Density                                 | 0.054                              | 0.176                              |
-| Average degree                          | 3.618                              | 10.017                             |
-| Transitivity                            | 0.555                              | 0.923                              |
-| Reciprocity                             | 0.358                              | 0.957                              |
-| Diameter                                | Undefined (not strongly connected) | Undefined (not strongly connected) |
-| Number of weakly connected components   | 1                                  | 2                                  |
-| Number of strongly connected components | 39                                 | 16                                 |
+| Senate graph statistic                  |   With Presidents |   Without presidents |
+|:----------------------------------------|------------------:|---------------------:|
+| Order                                   |            68     |               58     |
+| Size                                    |           246     |              581     |
+| Density                                 |             0.054 |                0.176 |
+| Average degree                          |             3.618 |               10.017 |
+| Transitivity                            |             0.555 |                0.923 |
+| Reciprocity                             |             0.358 |                0.957 |
+| Number of weakly connected components   |             1     |                2     |
+| Number of strongly connected components |            39     |               16     |
 
 ### 2.3.2 The graph of reciprocated Senate candidates (including Presidents)
 
@@ -49,16 +48,15 @@ Compare the graph statistics of the Senate graph, which includes the eight Presi
 
 Compare the graph statistics of the reciprocated Senate graph, which includes the eight Presidents, with those of the reciprocated Senate graph excluding the Presidents:
 
-| Reciprocated Senate graph statistic   | With Presidents           |   Without presidents |
-|:--------------------------------------|:--------------------------|---------------------:|
-| Order                                 | 35                        |               43     |
-| Size                                  | 44                        |              278     |
-| Density                               | 0.074                     |                0.308 |
-| Average degree                        | 1.257                     |                6.465 |
-| Transitivity                          | 0.565                     |                0.937 |
-| Diameter                              | Undefined (not connected) |                7     |
-| Number of connected components        | 8                         |                1     |
-| Average clustering coefficient        | 0.159                     |                0.748 |
+| Reciprocated Senate graph statistic   |   With Presidents |   Without presidents |
+|:--------------------------------------|------------------:|---------------------:|
+| Order                                 |            35     |               43     |
+| Size                                  |            44     |              278     |
+| Density                               |             0.074 |                0.308 |
+| Average degree                        |             1.257 |                6.465 |
+| Transitivity                          |             0.565 |                0.937 |
+| Number of connected components        |             8     |                1     |
+| Average clustering coefficient        |             0.159 |                0.748 |
 
 ### 2.3.3 The graph of House candidates (including Presidents)
 
@@ -70,6 +68,16 @@ Compare the graph statistics of the reciprocated Senate graph, which includes th
 
 Compare the graph statistics of the House graph, which includes the eight Presidents, with those of the House graph excluding the Presidents:
 
+| House graph statistic                   |   With Presidents |   Without presidents |
+|:----------------------------------------|------------------:|---------------------:|
+| Order                                   |           427     |              442     |
+| Size                                    |          1613     |           116721     |
+| Density                                 |             0.009 |                0.599 |
+| Average degree                          |             3.778 |              264.075 |
+| Transitivity                            |             0.343 |                0.995 |
+| Reciprocity                             |             0.247 |                0.99  |
+| Number of weakly connected components   |             5     |                7     |
+| Number of strongly connected components |           211     |               46     |
 
 ### 2.3.4 The graph of reciprocated House candidates (including Presidents)
 
@@ -80,3 +88,13 @@ Compare the graph statistics of the House graph, which includes the eight Presid
 </p>
 
 Compare the graph statistics of the reciprocated House graph, which includes the eight Presidents, with those of the reciprocated House graph excluding the Presidents:
+
+| Reciprocated House graph statistic   |   With Presidents |   Without presidents |
+|:-------------------------------------|------------------:|---------------------:|
+| Order                                |           179     |              403     |
+| Size                                 |           199     |            57795     |
+| Density                              |             0.012 |                0.713 |
+| Average degree                       |             1.112 |              143.412 |
+| Transitivity                         |             0.382 |                0.998 |
+| Number of connected components       |            38     |                9     |
+| Average clustering coefficient       |             0.165 |                0.897 |
