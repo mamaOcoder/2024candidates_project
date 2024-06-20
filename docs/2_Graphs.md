@@ -43,7 +43,7 @@ Compare the graph statistics of the Senate graph, which includes the eight Presi
 <p align="center">
   <img src="plots/RecSenateGraph1.png" alt="Reciprocated Senate candidates hyperlink graph">
   <br>
-  <b>Figure 2</b>: Senate candidates hyperlink graph (<a href="https://mamaocoder.github.io/2024candidates_project/plots/RecSenateGraph1.html">interactive graph</a>).
+  <b>Figure 2</b>: Reciprocated Senate candidates hyperlink graph (<a href="https://mamaocoder.github.io/2024candidates_project/plots/RecSenateGraph1.html">interactive graph</a>).
 </p>
 
 Compare the graph statistics of the reciprocated Senate graph, which includes the eight Presidents, with those of the reciprocated Senate graph excluding the Presidents:
@@ -84,7 +84,7 @@ Compare the graph statistics of the House graph, which includes the eight Presid
 <p align="center">
   <img src="plots/RecHouseGraph1.png" alt="Reciprocated House candidates hyperlink graph">
   <br>
-  <b>Figure 4</b>: Senate candidates hyperlink graph (<a href="https://mamaocoder.github.io/2024candidates_project/plots/RecHouseGraph1.html">interactive graph</a>).
+  <b>Figure 4</b>: Reciprocated House candidates hyperlink graph (<a href="https://mamaocoder.github.io/2024candidates_project/plots/RecHouseGraph1.html">interactive graph</a>).
 </p>
 
 Compare the graph statistics of the reciprocated House graph, which includes the eight Presidents, with those of the reciprocated House graph excluding the Presidents:
