@@ -17,7 +17,7 @@ The two hyperlink graphs were constructed using the library in Python [NetworkX]
 
 The constructed graphs were visualized using Python library [Holoviews](https://www.holoviews.org/). Different visual attributes were used to enhance the clarity and interpretability of the graphs. Nodes were sized by their degree.
 
-### 2.3.1 The graph of Senate candidates
+### 2.3.1 The graph of Senate candidates (including Presidents)
 
 <p align="center">
   <img src="plots/SenateGraph1.png" alt="Senate candidates hyperlink graph">
@@ -39,7 +39,7 @@ Compare the graph statistics of the Senate graph, which includes the eight Presi
 | Number of weakly connected components   | 1                                  | 2                                  |
 | Number of strongly connected components | 39                                 | 16                                 |
 
-### 2.3.2 The graph of reciprocated Senate candidates
+### 2.3.2 The graph of reciprocated Senate candidates (including Presidents)
 
 <p align="center">
   <img src="plots/RecSenateGraph1.png" alt="Reciprocated Senate candidates hyperlink graph">
@@ -60,7 +60,7 @@ Compare the graph statistics of the reciprocated Senate graph, which includes th
 | Number of connected components        | 8                         |                1     |
 | Average clustering coefficient        | 0.159                     |                0.748 |
 
-### 2.3.3 The graph of House candidates
+### 2.3.3 The graph of House candidates (including Presidents)
 
 <p align="center">
   <img src="plots/HouseGraph1.png" alt="House candidates hyperlink graph">
@@ -71,7 +71,7 @@ Compare the graph statistics of the reciprocated Senate graph, which includes th
 Compare the graph statistics of the House graph, which includes the eight Presidents, with those of the House graph excluding the Presidents:
 
 
-### 2.3.4 The graph of reciprocated House candidates
+### 2.3.4 The graph of reciprocated House candidates (including Presidents)
 
 <p align="center">
   <img src="plots/RecHouseGraph1.png" alt="Reciprocated House candidates hyperlink graph">
