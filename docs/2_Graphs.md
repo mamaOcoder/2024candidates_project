@@ -53,7 +53,7 @@ Compare the graph statistics of the reciprocated Senate graph, which includes th
 #### The graph of House candidates
 
 <p align="center">
-  <img src="plots/SenateGraph1.png" alt="House candidates hyperlink graph">
+  <img src="plots/HouseGraph1.png" alt="House candidates hyperlink graph">
   <br>
   <b>Figure 3</b>: House candidates hyperlink graph (<a href="https://mamaocoder.github.io/2024candidates_project/plots/HouseGraph1.html">interactive graph</a>).
 </p>
@@ -64,7 +64,7 @@ Compare the graph statistics of the House graph, which includes the eight Presid
 #### The graph of reciprocated House candidates
 
 <p align="center">
-  <img src="plots/SenateGraph1.png" alt="Reciprocated House candidates hyperlink graph">
+  <img src="plots/RecHouseGraph1.png" alt="Reciprocated House candidates hyperlink graph">
   <br>
   <b>Figure 4</b>: Senate candidates hyperlink graph (<a href="https://mamaocoder.github.io/2024candidates_project/plots/RecHouseGraph1.html">interactive graph</a>).
 </p>
