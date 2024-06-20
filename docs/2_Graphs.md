@@ -27,7 +27,7 @@ The constructed graphs were visualized using Python library [Holoviews](https://
 
 Compare the graph statistics of the Senate graph, which includes the eight Presidents, with those of the Senate graph excluding the Presidents:
 
-| Graph statistic                         | With Presidents                    | Without presidents                 |
+| Senate graph statistic                         | With Presidents                    | Without presidents                 |
 |:----------------------------------------|:-----------------------------------|:-----------------------------------|
 | Order                                   | 68                                 | 58                                 |
 | Size                                    | 246                                | 581                                |
