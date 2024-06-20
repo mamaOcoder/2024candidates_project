@@ -20,5 +20,5 @@ The constructed graphs were visualized using Python library [Holoviews](https://
 <p align="center">
   <img src="plots/SenateGraph.png" alt="Senate candidates hyperlink graph">
   <br>
-  <b>Figure 1</b>: Senate candidates hyperlink graph (<a href="plots/SenateGraph.html">interactive graph</a>).
+  <b>Figure 1</b>: Senate candidates hyperlink graph (<a href="https://mamaocoder.github.io/2024candidates_project/plots/SenateGraph.html">interactive graph</a>).
 </p>
