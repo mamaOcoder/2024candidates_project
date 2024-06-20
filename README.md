@@ -21,10 +21,13 @@ This study investigates the network characteristics and community structures of 
     - Graph Convolutional Networks (GCNs)
 
 ## Files
+- Jupyter notebooks (will be uploaded once they are formatted for public sharing)
+<!--
 - collect_candidates.ipynb contains the code for scraping and cleaning the data from Ballotpedia and Wikipedia. The 4 pickle files are the most updated results from running this code.
 - Final Project Notebook.ipynb contains the code for generating the graphs and performing network analyses.
 - utils/scrape_functions.py contains the functions created for collect_candidates.ipynb.
 - utils/graphs_functions.py contains the functions created for Final Project Notebook.ipynb.
+-->
 - [Class project report PDF](https://github.com/mamaOcoder/2024candidates_project/blob/main/MSDS452_Final_Project.pdf)
 
 <!-- 
