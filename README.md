@@ -12,8 +12,13 @@ This study investigates the network characteristics and community structures of 
 2. [Graphs](docs/2_Graphs.md)
 3. [Connectivity](docs/3_Connectivity.md)
 4. [Attributes and Assortativity](docs/4_Attributes_and_Assortativity.md)
-5. [Centralities](docs/5_Centralities.md)
-6. [Communities](docs/6_communities.md)
+   - Gender and Race of Candidates
+6. [Centralities](docs/5_Centralities.md)
+7. [Communities](docs/6_communities.md)
+8. Regression Analysis of Homophily and Heterophily
+9. Node Classification by:
+    - Support Vector Machines (SVMs)
+    - Graph Convolutional Networks (GCNs)
 
 ## Files
 - collect_candidates.ipynb contains the code for scraping and cleaning the data from Ballotpedia and Wikipedia. The 4 pickle files are the most updated results from running this code.
