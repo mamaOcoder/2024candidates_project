@@ -17,8 +17,35 @@ The two hyperlink graphs were constructed using the library in Python [NetworkX]
 
 The constructed graphs were visualized using Python library [Holoviews](https://www.holoviews.org/). Different visual attributes were used to enhance the clarity and interpretability of the graphs. Nodes were sized by their degree.
 
+#### The graph of Senate candidates
+
 <p align="center">
   <img src="plots/SenateGraph1.png" alt="Senate candidates hyperlink graph">
   <br>
   <b>Figure 1</b>: Senate candidates hyperlink graph (<a href="https://mamaocoder.github.io/2024candidates_project/plots/SenateGraph1.html">interactive graph</a>).
 </p>
+
+Compare the graph statistics of the current Senate graph, which includes the eight Presidents, with those of the Senate graph excluding the Presidents:
+
+| Graph statistic                         | With Presidents                    | Without presidents                 |
+|:----------------------------------------|:-----------------------------------|:-----------------------------------|
+| Order                                   | 68                                 | 58                                 |
+| Size                                    | 246                                | 581                                |
+| Density                                 | 0.054                              | 0.176                              |
+| Average degree                          | 3.618                              | 10.017                             |
+| Transitivity                            | 0.555                              | 0.923                              |
+| Reciprocity                             | 0.358                              | 0.957                              |
+| Diameter                                | Undefined (not strongly connected) | Undefined (not strongly connected) |
+| Number of weakly connected components   | 1                                  | 2                                  |
+| Number of strongly connected components | 39                                 | 16                                 |
+
+#### The graph of reciprocated Senate candidates
+
+
+
+#### The graph of House candidates
+
+
+
+
+#### The graph of reciprocated House candidates
