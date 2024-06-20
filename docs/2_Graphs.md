@@ -13,11 +13,11 @@ The two hyperlink graphs were constructed using the library in Python [NetworkX]
 * **Nodes**: Each candidate with a validated Wikipedia page was added as a node in the graph. Additional attributes such as party affiliation, office, incumbency status, and state were assigned to each node to provide context and facilitate further analysis.
 * **Edges**: Hyperlinks extracted from the Wikipedia pages were used to create directed edges between nodes. These edges indicate a hyperlink from one candidate's Wikipedia page to another, capturing the nature of their interconnectedness.
   
-### 2.3 Graph Plots
+### 2.3 Elementary Graph Statistics and Graph Plots
 
 The constructed graphs were visualized using Python library [Holoviews](https://www.holoviews.org/). Different visual attributes were used to enhance the clarity and interpretability of the graphs. Nodes were sized by their degree.
 
-#### The graph of Senate candidates
+### 2.3.1 The graph of Senate candidates
 
 <p align="center">
   <img src="plots/SenateGraph1.png" alt="Senate candidates hyperlink graph">
@@ -39,7 +39,7 @@ Compare the graph statistics of the Senate graph, which includes the eight Presi
 | Number of weakly connected components   | 1                                  | 2                                  |
 | Number of strongly connected components | 39                                 | 16                                 |
 
-#### The graph of reciprocated Senate candidates
+### 2.3.2 The graph of reciprocated Senate candidates
 
 <p align="center">
   <img src="plots/RecSenateGraph1.png" alt="Reciprocated Senate candidates hyperlink graph">
@@ -50,7 +50,7 @@ Compare the graph statistics of the Senate graph, which includes the eight Presi
 Compare the graph statistics of the reciprocated Senate graph, which includes the eight Presidents, with those of the reciprocated Senate graph excluding the Presidents:
 
 
-#### The graph of House candidates
+### 2.3.3 The graph of House candidates
 
 <p align="center">
   <img src="plots/HouseGraph1.png" alt="House candidates hyperlink graph">
@@ -61,7 +61,7 @@ Compare the graph statistics of the reciprocated Senate graph, which includes th
 Compare the graph statistics of the House graph, which includes the eight Presidents, with those of the House graph excluding the Presidents:
 
 
-#### The graph of reciprocated House candidates
+### 2.3.4 The graph of reciprocated House candidates
 
 <p align="center">
   <img src="plots/RecHouseGraph1.png" alt="Reciprocated House candidates hyperlink graph">
