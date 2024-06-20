@@ -27,11 +27,11 @@ This study investigates the network characteristics and community structures of 
 - utils/graphs_functions.py contains the functions created for Final Project Notebook.ipynb.
 - [Class project report PDF](https://github.com/mamaOcoder/2024candidates_project/blob/main/MSDS452_Final_Project.pdf)
 
+<!-- 
 ## Interactive Visualizations
 You can view our interactive visualizations here:
 - [Interactive Visualizations](https://mamaocoder.github.io/2024candidates_project/)
-
-
+-->
 
 ## Contact
 For any questions or further information, please contact Moses Boudourides at Moses.Boudourides@gmail.com.
