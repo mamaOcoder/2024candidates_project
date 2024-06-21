@@ -31,14 +31,14 @@ Compare the graph statistics of the Senate graph, which includes the eight Presi
 
 | Senate graph statistic                  |   With Presidents |   Without presidents |
 |:----------------------------------------|------------------:|---------------------:|
-| Order                                   |            68     |               58     |
-| Size                                    |           246     |              581     |
-| Density                                 |             0.054 |                0.176 |
-| Average degree                          |             3.618 |               10.017 |
-| Transitivity                            |             0.555 |                0.923 |
-| Reciprocity                             |             0.358 |                0.957 |
-| Number of weakly connected components   |             1     |                2     |
-| Number of strongly connected components |            39     |               16     |
+| Order                                   |            68     |               46     |
+| Size                                    |           246     |               77     |
+| Density                                 |             0.054 |                0.037 |
+| Average degree                          |             3.618 |                1.674 |
+| Transitivity                            |             0.555 |                0.22  |
+| Reciprocity                             |             0.358 |                0.494 |
+| Number of weakly connected components   |             1     |                5     |
+| Number of strongly connected components |            39     |               26     |
 
 ### 2.3.2 The graph of reciprocated Senate candidates (including Presidents)
 
@@ -52,13 +52,13 @@ Compare the graph statistics of the reciprocated Senate graph, which includes th
 
 | Reciprocated Senate graph statistic   |   With Presidents |   Without presidents |
 |:--------------------------------------|------------------:|---------------------:|
-| Order                                 |            35     |               43     |
-| Size                                  |            44     |              278     |
-| Density                               |             0.074 |                0.308 |
-| Average degree                        |             1.257 |                6.465 |
-| Transitivity                          |             0.565 |                0.937 |
-| Number of connected components        |             8     |                1     |
-| Average clustering coefficient        |             0.159 |                0.748 |
+| Order                                 |            35     |               26     |
+| Size                                  |            44     |               19     |
+| Density                               |             0.074 |                0.058 |
+| Average degree                        |             1.257 |                0.731 |
+| Transitivity                          |             0.565 |                0     |
+| Number of connected components        |             8     |                8     |
+| Average clustering coefficient        |             0.159 |                0     |
 
 ### 2.3.3 The graph of House candidates (including Presidents)
 
@@ -72,14 +72,14 @@ Compare the graph statistics of the House graph, which includes the eight Presid
 
 | House graph statistic                   |   With Presidents |   Without presidents |
 |:----------------------------------------|------------------:|---------------------:|
-| Order                                   |           427     |              442     |
-| Size                                    |          1613     |           116721     |
-| Density                                 |             0.009 |                0.599 |
-| Average degree                          |             3.778 |              264.075 |
-| Transitivity                            |             0.343 |                0.995 |
-| Reciprocity                             |             0.247 |                0.99  |
-| Number of weakly connected components   |             5     |                7     |
-| Number of strongly connected components |           211     |               46     |
+| Order                                   |           430     |              361     |
+| Size                                    |          1619     |              930     |
+| Density                                 |             0.009 |                0.007 |
+| Average degree                          |             3.765 |                2.576 |
+| Transitivity                            |             0.343 |                0.221 |
+| Reciprocity                             |             0.248 |                0.376 |
+| Number of weakly connected components   |             6     |               20     |
+| Number of strongly connected components |           213     |              173     |
 
 ### 2.3.4 The graph of reciprocated House candidates (including Presidents)
 
@@ -93,10 +93,11 @@ Compare the graph statistics of the reciprocated House graph, which includes the
 
 | Reciprocated House graph statistic   |   With Presidents |   Without presidents |
 |:-------------------------------------|------------------:|---------------------:|
-| Order                                |           179     |              403     |
-| Size                                 |           199     |            57795     |
-| Density                              |             0.012 |                0.713 |
-| Average degree                       |             1.112 |              143.412 |
-| Transitivity                         |             0.382 |                0.998 |
-| Number of connected components       |            38     |                9     |
-| Average clustering coefficient       |             0.165 |                0.897 |
+| Order                                |           182     |              173     |
+| Size                                 |           201     |              175     |
+| Density                              |             0.012 |                0.012 |
+| Average degree                       |             1.104 |                1.012 |
+| Transitivity                         |             0.386 |                0.32  |
+| Number of connected components       |            40     |               40     |
+| Average clustering coefficient       |             0.179 |                0.157 |
+
