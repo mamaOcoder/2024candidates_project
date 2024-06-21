@@ -68,6 +68,8 @@ Compare the graph statistics of the reciprocated Senate graph, which includes th
   <b>Figure 3</b>: House candidates hyperlink graph (<a href="https://mamaocoder.github.io/2024candidates_project/plots/HouseGraph1.html">interactive graph</a>).
 </p>
 
+In Figure 3, nodes are not labeled with candidates' names due to the graph's size, which would make name annotations difficult to read. To view node labels, one must refer to the corresponding <a href="https://mamaocoder.github.io/2024candidates_project/plots/HouseGraph1.html">interactive graph</a>.
+
 Compare the graph statistics of the House graph, which includes the eight Presidents, with those of the House graph excluding the Presidents:
 
 | House graph statistic                   |   With Presidents |   Without presidents |
