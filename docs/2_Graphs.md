@@ -4,7 +4,9 @@ The creation of hyperlink graphs is a crucial step in visualizing the relationsh
 
 ### 2.1. Obtaining Edge Values
 
-To begin, the validated Wikipedia pages for each candidate were used as the basis for constructing each hyperlink graph. Each Wikipedia page in both dataframes was inspected to extract hyperlinks pointing to other Wikipedia pages. These hyperlinks represent connections between different candidates. To obtain these hyperlinks, a for-loop utilizing the “wikipediaapi.Wikipedia” Python library was used to systematically traverse each candidate’s Wikipedia page and compile a list of hyperlinks. Within the loop, we retrieved, sorted, and filtered out self-referencing links shown on each candidate's page. We stored the edge pairs in the hyperlink list when we found intersecting links with the validated Wikipedia pages.This approach allowed us to identify and capture all outgoing hyperlinks between candidates’ Wikipedia pages to be used as the edges in our network graph.
+To begin, the validated Wikipedia pages for each candidate were used as the basis for constructing each hyperlink graph. Each Wikipedia page in both dataframes was inspected to extract hyperlinks pointing to other Wikipedia pages. These hyperlinks represent connections between different candidates. To fetch these hyperlinks, we utilized "wikipediaapi" Python library to traverse each candidate’s Wikipedia page and compile a list of hyperlinks. In the fetching process, we parsed the HTML content with BeautifulSoup. By searching all paragraph and main content table elements, we identified links with anchor tags (<a>) with valid href attributes. We then excluded certain links, such as those within non-infobox tables, help links, and specific top-level links, to get a cleaned list of valid Wikipedia page titles.
+
+With this method, we created two dictionaries: one to store all the clean hyperlinks found on each candidate's page and another to store hyperlinks from a candidate's page that point to other candidates' pages. We used the latter to construct the edges in this network analysis of interconnectedness.
 
 ### 2.2. Building the Graphs
 
