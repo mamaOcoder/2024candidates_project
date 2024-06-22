@@ -27,9 +27,10 @@ In the tables below, the enumeration column corresponds to the decreasing order 
 ### 3.4.1 Senate 
 
 | Connected Component             |   Number of Candidates |   Number of Presidents | Presidents                                                                                                          |
+| Connected Component             |   Number of Candidates |   Number of Presidents | Presidents                                                                                                          |
 |:--------------------------------|-----------------------:|-----------------------:|:--------------------------------------------------------------------------------------------------------------------|
-| 0-weakly connected component    |                     68 |                      8 | Joe Biden, Bill Clinton, Barack Obama, George H. W. Bush, Donald Trump, Jimmy Carter, Ronald Reagan, George W. Bush |
-| 0-strongly connected component  |                     23 |                      8 | Joe Biden, Bill Clinton, Barack Obama, George H. W. Bush, Donald Trump, Jimmy Carter, George W. Bush, Ronald Reagan |
+| 0-weakly connected component    |                     68 |                      8 | Joe Biden, George H. W. Bush, George W. Bush, Jimmy Carter, Bill Clinton, Barack Obama, Ronald Reagan, Donald Trump |
+| 0-strongly connected component  |                     23 |                      8 | Joe Biden, George H. W. Bush, George W. Bush, Jimmy Carter, Bill Clinton, Barack Obama, Ronald Reagan, Donald Trump |
 | 1-strongly connected component  |                      3 |                      0 |                                                                                                                     |
 | 2-strongly connected component  |                      3 |                      0 |                                                                                                                     |
 | 3-strongly connected component  |                      2 |                      0 |                                                                                                                     |
@@ -67,7 +68,7 @@ In the tables below, the enumeration column corresponds to the decreasing order 
 | 35-strongly connected component |                      1 |                      0 |                                                                                                                     |
 | 36-strongly connected component |                      1 |                      0 |                                                                                                                     |
 | 37-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 38-strongly connected component |                      1 |                      0 |     
+| 38-strongly connected component |                      1 |                      0 | 
 
 ### 3.4.2 Reciprocated Senate
 
