@@ -331,30 +331,3 @@ We observe that the weakly connected component subgraphs contain more candidates
 | 26 remaining connected components |                      2 |                      0 |                                                                                                                     |
 
 
-<--
-| 15-connected component |                      2 |                      0 |                                                                                                                     |
-| 16-connected component |                      2 |                      0 |                                                                                                                     |
-| 17-connected component |                      2 |                      0 |                                                                                                                     |
-| 18-connected component |                      2 |                      0 |                                                                                                                     |
-| 19-connected component |                      2 |                      0 |                                                                                                                     |
-| 20-connected component |                      2 |                      0 |                                                                                                                     |
-| 21-connected component |                      2 |                      0 |                                                                                                                     |
-| 22-connected component |                      2 |                      0 |                                                                                                                     |
-| 23-connected component |                      2 |                      0 |                                                                                                                     |
-| 24-connected component |                      2 |                      0 |                                                                                                                     |
-| 25-connected component |                      2 |                      0 |                                                                                                                     |
-| 26-connected component |                      2 |                      0 |                                                                                                                     |
-| 27-connected component |                      2 |                      0 |                                                                                                                     |
-| 28-connected component |                      2 |                      0 |                                                                                                                     |
-| 29-connected component |                      2 |                      0 |                                                                                                                     |
-| 30-connected component |                      2 |                      0 |                                                                                                                     |
-| 31-connected component |                      2 |                      0 |                                                                                                                     |
-| 32-connected component |                      2 |                      0 |                                                                                                                     |
-| 33-connected component |                      2 |                      0 |                                                                                                                     |
-| 34-connected component |                      2 |                      0 |                                                                                                                     |
-| 35-connected component |                      2 |                      0 |                                                                                                                     |
-| 36-connected component |                      2 |                      0 |                                                                                                                     |
-| 37-connected component |                      2 |                      0 |                                                                                                                     |
-| 38-connected component |                      2 |                      0 |                                                                                                                     |
-| 39-connected component |                      2 |                      0 | 
--->
