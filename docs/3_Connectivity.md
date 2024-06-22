@@ -116,7 +116,6 @@ We observe that the weakly connected component subgraphs contain more candidates
 | 18-strongly connected component  |                      2 |                      0 |                                                                                                                     |
 | 19-strongly connected component  |                      2 |                      0 |                                                                                                                     |
 | 20-strongly connected component  |                      2 |                      0 |                                                                                                                     |
-| 21-strongly connected component  |                      1 |                      0 |                                                                                                                     |
 | 192 remaining strongly connected component  |                      1 |                      0 |                                                                                                                     |
 
 ### 3.4.4 Reciprocated House
