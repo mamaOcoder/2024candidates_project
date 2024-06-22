@@ -15,8 +15,10 @@ This study investigates the network characteristics and community structures of 
    - Gender and Race of Candidates
 6. [Centralities](docs/5_Centralities.md)
 7. [Communities](docs/6_communities.md)
-8. Regression Analysis of Homophily and Heterophily
-9. Node Classification by:
+8. Hyperlink Graph Domination
+10. Topic Modeling
+11. Regression Analysis of Homophily and Heterophily
+12. Node Classification by:
     - Support Vector Machines (SVMs)
     - Graph Convolutional Networks (GCNs)
 
