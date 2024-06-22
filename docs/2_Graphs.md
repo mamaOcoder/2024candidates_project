@@ -8,6 +8,8 @@ To begin, the validated Wikipedia pages for each candidate were used as the basi
 
 With this method, we created two dictionaries: one to store all the clean hyperlinks found on each candidate's page and another to store hyperlinks from a candidate's page that point to other candidates' pages. Iterating on the items of the latter dictionary, we constructed the edges of the corresponding hyperlink graphs (for Senate and House candidates).
 
+Note that the list of candidates was expanded to include eight Presidents, as they bridged otherwise disconnected parts of the hyperlink graphs. This is demonstrated in the following tables of Elementary Graph Statistics, which compare the statistics with and without the Presidents.
+
 ### 2.2. Building the Graphs
 
 For this purpose, we were using the Python library [NetworkX](https://networkx.org/), which is designed for the creation, manipulation, and study of complex networks. Both the Senate candidate’s graph (Gs) and the House candidate’s graph (Gh) were initiated as a NetworkX digraph (directed graph). Each candidate was represented by his/her Wikipedia page as a node in their respective graph, and the hyperlinks between their Wikipedia pages (nodes) were represented as edges connecting these nodes.
