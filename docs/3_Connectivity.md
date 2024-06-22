@@ -25,7 +25,7 @@ In the tables below, the enumeration column corresponds to the decreasing order 
 We observe that the weakly connected component subgraphs contain more candidates compared to the strongly connected component subgraphs in both the Senate and the House, which is consistent with their definitions.
 
 ### 3.4. Plots of Connected Components of Candidate Hyperlink Graphs 
-->
+-->
 
 ### 3.4.1 Senate 
 
