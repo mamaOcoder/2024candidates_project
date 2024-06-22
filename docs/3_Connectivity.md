@@ -28,7 +28,7 @@ We observe that the weakly connected component subgraphs contain more candidates
 -->
 
 ### 3.4.1 Senate 
-                                                                                                         |
+                                                                                                    
 | Connected Component             |   Number of Candidates |   Number of Presidents | Presidents                                                                                                          |
 |:--------------------------------|-----------------------:|-----------------------:|:--------------------------------------------------------------------------------------------------------------------|
 | 0-weakly connected component    |                     68 |                      8 | Joe Biden, George H. W. Bush, George W. Bush, Jimmy Carter, Bill Clinton, Barack Obama, Ronald Reagan, Donald Trump |
