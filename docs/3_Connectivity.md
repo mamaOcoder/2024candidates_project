@@ -38,39 +38,8 @@ We observe that the weakly connected component subgraphs contain more candidates
 | 3-strongly connected component  |                      2 |                      0 |                                                                                                                     |
 | 4-strongly connected component  |                      2 |                      0 |                                                                                                                     |
 | 5-strongly connected component  |                      2 |                      0 |                                                                                                                     |
-| 6-strongly connected component  |                      1 |                      0 |                                                                                                                     |
-| 7-strongly connected component  |                      1 |                      0 |                                                                                                                     |
-| 8-strongly connected component  |                      1 |                      0 |                                                                                                                     |
-| 9-strongly connected component  |                      1 |                      0 |                                                                                                                     |
-| 10-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 11-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 12-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 13-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 14-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 15-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 16-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 17-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 18-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 19-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 20-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 21-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 22-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 23-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 24-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 25-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 26-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 27-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 28-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 29-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 30-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 31-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 32-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 33-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 34-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 35-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 36-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 37-strongly connected component |                      1 |                      0 |                                                                                                                     |
-| 38-strongly connected component |                      1 |                      0 | 
+| 33 remaining strongly connected component  |                      1 |                      0 |                                                                                                                     |
+
 
 ### 3.4.2 Reciprocated Senate
 
