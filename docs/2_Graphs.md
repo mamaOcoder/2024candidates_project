@@ -1,6 +1,6 @@
 ## 2. Graphs
 
-The creation of hyperlink graphs is a crucial step in visualizing the relationships and connections among the candidates for the 2024 U.S. Senate and House of Representatives elections. By mapping out the hyperlinks between the Wikipedia pages of the candidates, we can analyze the interconnectedness and network structure of the political landscape.
+The creation of hyperlink graphs is a crucial step in analyzing the relationships and connections among the Wikipedia pages of candidates for the 2024 U.S. Senate and House of Representatives elections. By mapping out the hyperlinks between the Wikipedia pages of the candidates, we can analyze the interconnectedness and network structure of the political landscape.
 
 ### 2.1. Obtaining Edge Values
 
