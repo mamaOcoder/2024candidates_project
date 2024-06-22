@@ -328,7 +328,8 @@ We observe that the weakly connected component subgraphs contain more candidates
 | 11-connected component |                      3 |                      0 |                                                                                                                     |
 | 12-connected component |                      3 |                      0 |                                                                                                                     |
 | 13-connected component |                      3 |                      0 |                                                                                                                     |
-| 14-connected component |                      2 |                      0 |                                                                                                                     |
+| 26 remaining connected components |                      2 |                      0 |                                                                                                                     |
+<--
 | 15-connected component |                      2 |                      0 |                                                                                                                     |
 | 16-connected component |                      2 |                      0 |                                                                                                                     |
 | 17-connected component |                      2 |                      0 |                                                                                                                     |
@@ -354,3 +355,4 @@ We observe that the weakly connected component subgraphs contain more candidates
 | 37-connected component |                      2 |                      0 |                                                                                                                     |
 | 38-connected component |                      2 |                      0 |                                                                                                                     |
 | 39-connected component |                      2 |                      0 | 
+-->
