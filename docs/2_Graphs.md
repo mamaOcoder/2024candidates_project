@@ -4,20 +4,28 @@ The creation of hyperlink graphs is a crucial step in visualizing the relationsh
 
 ### 2.1. Obtaining Edge Values
 
-To begin, the validated Wikipedia pages for each candidate were used as the basis for constructing each hyperlink graph. Each Wikipedia page in both dataframes was inspected to extract hyperlinks pointing to other Wikipedia pages. These hyperlinks represent connections between different candidates. To fetch these hyperlinks, we utilized "wikipediaapi" Python library to traverse each candidate’s Wikipedia page and compile a list of hyperlinks. In the fetching process, we parsed the HTML content with BeautifulSoup. In the "get_clean_wikipedia_hyperlinks" function, we searched all paragraphs and main content table elements, and we identified links with anchor tags (<a>) with valid href attributes. We then excluded certain links, such as those within non-infobox tables, help links, and specific top-level links, to get a cleaned list of valid Wikipedia page titles.
+To begin, the validated Wikipedia pages for each candidate were used as the basis for constructing each hyperlink graph. Each Wikipedia page in both dataframes was inspected to extract hyperlinks pointing to other Wikipedia pages. These hyperlinks represent adjacencies between different candidates in the wikisphere. To fetch these hyperlinks, we utilized the Python wrapper [wikipediaapi](https://github.com/martin-majlis/Wikipedia-API) to secure the existence of each candidate’s Wikipedia page and compile a list of hyperlinks. In the main fetching process, we parsed the HTML content with the Python library [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) through a function (called get_clean_wikipedia_hyperlinks) searching for anchor tags (<a>) with valid href attributes inside the content of the parsed Wikipedia page. However, we have excluded certain hyperlinks outside the main contents of the candidates' wikipedia pages (such as those within non-infobox tables, help links, and specific top-level links). These excluded hyperlinks are added by Wikipedia (not by authors of candidates' Wikipedia pages) in order to provide comprehensive lists of all candidates competing for the same office and at the same State with that candidate. The reasoning for excluding such extended lists of candidates' hyperlinks was clear. Not only were these links separate from the primary content candidates presented about themselves, but including them would also lead to a highly interconnected hyperlink graph (almost complete).
 
-With this method, we created two dictionaries: one to store all the clean hyperlinks found on each candidate's page and another to store hyperlinks from a candidate's page that point to other candidates' pages. We used the latter to construct the edges in this network analysis of interconnectedness.
+With this method, we created two dictionaries: one to store all the clean hyperlinks found on each candidate's page and another to store hyperlinks from a candidate's page that point to other candidates' pages. Iterating on the items of the latter dictionary, we constructed the edges of the corresponding hyperlink graphs (for Senate and House candidates).
 
 ### 2.2. Building the Graphs
 
-The two hyperlink graphs were constructed using the library in Python [NetworkX](https://networkx.org/), which is designed for the creation, manipulation, and study of complex networks. Both the Senate candidate’s graph (Gs) and the House candidate’s graph (Gh) were initiated as a NetworkX DiGraph (directed graph). Each candidate was represented by his/her Wikipedia page as a node in their respective graph, and the hyperlinks between their Wikipedia pages (nodes) were represented as edges connecting these nodes.
+For this purpose, we were using the Python library [NetworkX](https://networkx.org/), which is designed for the creation, manipulation, and study of complex networks. Both the Senate candidate’s graph (Gs) and the House candidate’s graph (Gh) were initiated as a NetworkX digraph (directed graph). Each candidate was represented by his/her Wikipedia page as a node in their respective graph, and the hyperlinks between their Wikipedia pages (nodes) were represented as edges connecting these nodes.
 
-* **Nodes**: Each candidate with a validated Wikipedia page was added as a node in the graph. Additional attributes such as party affiliation, office, incumbency status, and state were assigned to each node to provide context and facilitate further analysis.
+* **Nodes**: Each candidate with a validated Wikipedia page was added as a node in the graph. Additional attributes such as party affiliation, office, incumbency status, and state were assigned to each node to provide context and facilitate further analysis (as we are going to discribe in one of the next sections).
 * **Edges**: Hyperlinks extracted from the Wikipedia pages were used to create directed edges between nodes. These edges indicate a hyperlink from one candidate's Wikipedia page to another, capturing the nature of their interconnectedness.
   
 ### 2.3 Elementary Graph Statistics and Graph Plots
 
-The constructed graphs were visualized using Python library [Holoviews](https://www.holoviews.org/). Different visual attributes were used to enhance the clarity and interpretability of the graphs. Nodes were sized by their degree.
+The created graphs were visualized using the interactive (javascript-based) Python library [Holoviews](https://www.holoviews.org/). Different visual attributes were used to enhance the clarity and interpretability of the graphs. Nodes were sized by their degree. For each graph, we were compiling the following basic graph statistics:
+
+* **Order**: number of nodes.
+* **Seize**: number of edges.
+* **Density**: ratio of the number of edges to the number of possible edges if every node were connected to every other node.
+* **Average degree**: ratio of the sum of degrees of all nodes to the total number of nodes.
+* **Transitivity**: fraction of all possible triangles present in the graph.
+* **Reciprocity**: ratio of the number of edges pointing in both directions to the total number of edges.
+* **Number of connected components**: defined in the next section.
 
 ### 2.3.1 The graph of Senate candidates (including Presidents)
 
