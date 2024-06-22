@@ -329,6 +329,8 @@ We observe that the weakly connected component subgraphs contain more candidates
 | 12-connected component |                      3 |                      0 |                                                                                                                     |
 | 13-connected component |                      3 |                      0 |                                                                                                                     |
 | 26 remaining connected components |                      2 |                      0 |                                                                                                                     |
+
+
 <--
 | 15-connected component |                      2 |                      0 |                                                                                                                     |
 | 16-connected component |                      2 |                      0 |                                                                                                                     |
